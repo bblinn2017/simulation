@@ -1,0 +1,21 @@
+README simulation
+
+Design Overview:
+	My simulator implements all the required features. Extracting the surface, computing and applying the force due to gravity, computing and applying internal elastic forces, computing and applying viscous damping forces, and it resolves collisions betwen the mesh and the ground, and collisions between the mesh and a sphere centered at the ground. My simulaiton also uses the explicit midpoint method.
+
+How to Run:
+	To run the program there are no arguments. The controls are:
+	C to toggle orbit
+	W to move forward
+	S to move backward
+	A to move left
+	D to move right
+	Q to move down
+	E to move up
+	P to pause
+	M to toggle interactivity
+
+Videos:
+	the ground_collision video shows collision with the ground
+	the object_collision video shows collision with the sphere
+	the interactivity video shows interactivity
